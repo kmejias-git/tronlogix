@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio para recepción y gestión de paquetes, sobres, documentación, insumos, repuestos, productos de empresa, productos de mercadolibre. Entregas y retiro en Capital Federal como en Gran Buenos Aires.">
+    <meta name="keywords" content="entrega retirar documentos paquetes mercadolibre mercancia e-commers">
+    <title>Tron Logix Servicio de Mensajería y Paquetería</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,600;1,500;1,800&family=Literata:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-dark text-white justify-content-between align-items-center">
+    <a class="navbar-brand" href="#">  
+        <img src="../multimedia/logotl.png" width="150" height="120" class="d-inline-block align-top" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active"> 
+                <a class="nav-link text-reset" href="../index.html"> Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-reset" href="../views/nosotros.html" >Nosotros</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-reset" href="../views/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-reset" href="../views/promociones.html">Promociones</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-reset" href="../views/contactanos.html">Contáctanos</a>
+            </li>
+        </ul>
+
+    <!-- BOTON MODAL LOGIN-->    
+    <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="close" title="Close Modal">&times;
+        </span>
+
+    <form class="modal-content animate bg-dark" action="/action_page.php">
+        <div class="imgcontainer">
+        <img src="../multimedia/logotl.png" alt="Avatar" class="avatar" width="80px" height="80px">
+        </div>
+
+        <div class="container text-white ">
+            <label for="uname"><b>Usuario</b></label>
+            <input type="text" placeholder="Usuario" name="uname" required>
+
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="Contraseña" name="psw" required>
+
+            <button class="buttonsLogin" type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Recordar usuario
+            </label>
+        </div>
+
+        <div class="container bg-dark">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw"> <a href="#">Forgot password?</a></span>
+        </div>
+    </form>
+    </div>
+    </div>
+</nav>
+<body>
+<div class= "content no-gutters">    
+    <h1 class="titulo">Servicios</h1>
+    <div class="conteiner jumbotron bg-dark">
+        <div class="row justify-content-center">
+        <a href="" class= "animate backInDown"><img src="../multimedia/publicidad/moto2.jpg" alt=""></a>
+            
+                <div class="text-white col-md-12 col-lg-12">
+                    <h2 class="subtitulos">Hacenos todas tus consultas</h2>
+                    <h1 class="titulo animate pulse"><strong>¡SOMOS TU MENSAJERIA DE CONFIANZA!</strong></h1>  
+                </div>
+        </div>
+    </div>
+    
+<table class="table table-hover text-justify">
+        <tr>
+        <th>
+            Servicio
+        </th>
+        <th>
+            Descripcion
+        </th>
+    </tr>
+        <td>
+            E-Commers
+        </td>
+        <td>
+            <ol>
+                <li>Almacenaje de los productos.</li>
+                <li>Recepción y gestión de paquetes.</li>
+                <li>Envío (Planificación para la entrega de mercaderías).</li>
+                <li>Cobranza.</li>
+            </ol>
+        </td>
+    <tr>
+        <td>
+            Moto Eventual
+        </td>
+        <td>
+            <ol>
+                <li>Envio de documentacion.</li>
+                <li>Envio de invitaciones y Regalos empresariales.</li>
+                <li>Reparto programado y supervisado de volantes.</li>
+                <li>Delivery.</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Varios
+        </td>
+        <td>
+            <ol>
+                <li>Servicio programado.</li>
+                <li>Mercado Flex.</li>
+                <li>Logistica inversa.</li>
+                <li>Mensajería empresarial.</li>
+            </ol>
+        </td>
+    </tr>
+</table>
+</div>
+    
+<!-- MARKETING CARDS-->
+<div class="card-deck animate swing">
+    <div class="card text-white bg-dark mb-3">
+        <img src="../multimedia/publicidad/personalatention.jpg" class="card-img-top rounded img-rounded" alt="...">
+    <div class="card-body">
+        <h5 class="card-title text-center">Atención Personalizada</h5>
+        <p class="card-text text-center">Contamos con un amplio contact center el cual se encargará de darle atención a tus consultas o las de tus clientes los 365 días del año.</p>
+    </div>
+    </div>
+    <div class="card text-white bg-dark mb-3">
+        <img src="../multimedia/publicidad/gps1.jpg" class="card-img-top rounded img-rounded" alt="...">
+        <div class="card-body">
+        <h5 class="card-title text-center">Localización por GPS</h5>
+        <p class="card-text text-center">Todos nuestros trabajadores tienen un dispositivo de localización el cual te ayudará saber en el lugar excato donde se encuentra tu encomienda.</p>
+    </div>
+    </div>
+    <div class="card text-white bg-dark mb-3">
+        <img src="../multimedia/publicidad/clientfirst.jpg" class="card-img-top rounded img-rounded" alt="...">
+        <div class="card-body">
+        <h5 class="card-title text-center">Atención al Cliente</h5>
+        <p class="card-text text-center">Nuestro centro de ayuda se encargará de ser el enlace entre tu e-commers y tu tienda, indicádole al cliente cualquier informacióncon respecto a la recepción y entrega de su pedido.</p>
+    </div>
+    </div>
+    <div class="card text-white bg-dark mb-3">
+        <img src="../multimedia/publicidad/happyClient.jpg" class="card-img-top rounded img-rounded" alt="...">
+        <div class="card-body">
+        <h5 class="card-title text-center">Crecimiento en Ventas</h5>
+        <p class="card-text text-center">Te ayudamos en el crecimiento de tu negocio. Así de feliz estarán tus clientes al recibir sus pedidos en tan corto tiempo y en el mismo día.</p>
+    </div>
+    </div>
+<img class="logoWs" src="../multimedia/redes/ws.png" alt="logoWs">
+</div>
+
+<script>
+// Modal
+var modal = document.getElementById('id01');
+
+// click en cualquier lugar, se cierra
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>    
+</body>
+<!-- FOOTER -->
+<footer>
+    <div class="content bg-dark text-white text-center">
+        <div class="row">
+            <div class="col-md-12 p-5">
+            <h2>Síguenos</h2>
+                <a href="">
+                    <img class="iconos" src="../multimedia/redes/facebook.png" alt="logoFacebook"> 
+                </a>
+                <a href="">
+                    <img class="iconos" src="../multimedia/redes/instagram.png" alt="logoInstag">
+                </a>
+                <a href="">
+                    <img class="iconos" src="../multimedia/redes/twitter.png" alt="logoTw">
+                </a>
+                <a href="">
+                    <img class="iconos" src="../multimedia/redes/gmail.png" alt="logoGmail">
+                </a>
+                <h5 class="text-center">&copy; Contenido creado por Kerlys Mejias - Tron Logix.  All rights reserved.</h5>
+            </div>
+        </div>
+    </div>
+</footer>>
+</html>
